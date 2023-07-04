@@ -1,0 +1,28 @@
+[2.098s] Invoking command in '/home/pradeshi/ros2_ws3/build/lane_detector': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pradeshi/ros2_ws3/build/lane_detector/build
+[3.132s] running develop
+[3.912s] Invoked command in '/home/pradeshi/ros2_ws3/build/lane_detector' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pradeshi/ros2_ws3/build/lane_detector/build
+[3.915s] Invoking command in '/home/pradeshi/ros2_ws3/src/lane_detector': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detector build --build-base /home/pradeshi/ros2_ws3/build/lane_detector/build install --record /home/pradeshi/ros2_ws3/build/lane_detector/install.log --single-version-externally-managed
+[4.483s] running egg_info
+[4.486s] writing ../../build/lane_detector/lane_detector.egg-info/PKG-INFO
+[4.489s] writing dependency_links to ../../build/lane_detector/lane_detector.egg-info/dependency_links.txt
+[4.492s] writing entry points to ../../build/lane_detector/lane_detector.egg-info/entry_points.txt
+[4.492s] writing requirements to ../../build/lane_detector/lane_detector.egg-info/requires.txt
+[4.492s] writing top-level names to ../../build/lane_detector/lane_detector.egg-info/top_level.txt
+[4.497s] reading manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'
+[4.499s] writing manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'
+[4.501s] running build
+[4.502s] running build_py
+[4.503s] copying lane_detector/opencv_subscriber.py -> /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector
+[4.504s] running install
+[4.505s] running install_lib
+[4.507s] copying /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector/opencv_subscriber.py -> /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector
+[4.509s] byte-compiling /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector/opencv_subscriber.py to opencv_subscriber.cpython-310.pyc
+[4.513s] running install_data
+[4.515s] running install_egg_info
+[4.520s] removing '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[4.527s] Copying ../../build/lane_detector/lane_detector.egg-info to /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info
+[4.531s] running install_scripts
+[4.591s] Installing opencv_sub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector
+[4.593s] Installing webcam_pub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector
+[4.594s] writing list of installed files to '/home/pradeshi/ros2_ws3/build/lane_detector/install.log'
+[4.661s] Invoked command in '/home/pradeshi/ros2_ws3/src/lane_detector' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detector build --build-base /home/pradeshi/ros2_ws3/build/lane_detector/build install --record /home/pradeshi/ros2_ws3/build/lane_detector/install.log --single-version-externally-managed

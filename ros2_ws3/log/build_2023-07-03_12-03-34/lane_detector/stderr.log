@@ -1,0 +1,5 @@
+  File "/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector/camera_publisher.py", line 24
+    self.publisher_.publish(self.cv_bridge.cv2_to_imgmsg(np.array(self.capture),'bgr8')
+                           ^
+SyntaxError: '(' was never closed
+

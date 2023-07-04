@@ -1,0 +1,4 @@
+[console_scripts]
+opencv_sub = lane_detector.opencv_subscriber:main
+webcam_pub = lane_detector.camera_publisher:main
+
