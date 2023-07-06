@@ -1,0 +1,44 @@
+[2.872s] Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop': PYTHONPATH=/home/pradeshi/ros2_ws3/build/mouse_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/pradeshi/ros2_ws3/build/mouse_teleop/build install --record /home/pradeshi/ros2_ws3/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[3.783s] /home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.784s]   warnings.warn(
+[3.889s] running egg_info
+[3.893s] creating ../../../build/mouse_teleop/mouse_teleop.egg-info
+[3.894s] writing ../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[3.900s] writing dependency_links to ../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[3.901s] writing entry points to ../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[3.902s] writing requirements to ../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[3.904s] writing top-level names to ../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[3.905s] writing manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[3.909s] reading manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[3.911s] adding license file 'LICENSE'
+[3.913s] writing manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[3.914s] running build
+[3.914s] running build_py
+[3.915s] creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build
+[3.915s] creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib
+[3.916s] creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop
+[3.916s] copying mouse_teleop/__init__.py -> /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop
+[3.917s] copying mouse_teleop/mouse_teleop.py -> /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop
+[3.918s] running install
+[3.918s] running install_lib
+[3.930s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[3.931s] copying /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[3.931s] copying /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[3.935s] byte-compiling /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/__init__.py to __init__.cpython-310.pyc
+[3.936s] byte-compiling /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-310.pyc
+[3.940s] running install_data
+[3.949s] copying package.xml -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop
+[3.950s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/config
+[3.950s] copying config/mouse_teleop.yaml -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/config
+[3.950s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/launch
+[3.951s] copying launch/mouse_teleop.launch.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/launch
+[3.951s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index
+[3.952s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index
+[3.952s] creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index/packages
+[3.953s] copying resource/mouse_teleop -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index/packages
+[3.953s] running install_egg_info
+[3.956s] Copying ../../../build/mouse_teleop/mouse_teleop.egg-info to /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop-1.4.0-py3.10.egg-info
+[3.958s] running install_scripts
+[4.006s] Installing mouse_teleop script to /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/mouse_teleop
+[4.007s] writing list of installed files to '/home/pradeshi/ros2_ws3/build/mouse_teleop/install.log'
+[4.095s] Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/mouse_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/pradeshi/ros2_ws3/build/mouse_teleop/build install --record /home/pradeshi/ros2_ws3/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed

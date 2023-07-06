@@ -1,0 +1,698 @@
+[0.000000] (-) TimerEvent: {}
+[0.002578] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.002738] (lane_detector) JobQueued: {'identifier': 'lane_detector', 'dependencies': OrderedDict()}
+[0.002862] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.003025] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.003147] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs')])}
+[0.003289] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/home/pradeshi/ros2_ws3/install/key_teleop'), ('teleop_tools_msgs', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs'), ('joy_teleop', '/home/pradeshi/ros2_ws3/install/joy_teleop')])}
+[0.003448] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.069261] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.100453] (-) TimerEvent: {}
+[0.114853] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.116025] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools_msgs', '-DCMAKE_INSTALL_PREFIX=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[0.201367] (-) TimerEvent: {}
+[0.302492] (-) TimerEvent: {}
+[0.404253] (-) TimerEvent: {}
+[0.506649] (-) TimerEvent: {}
+[0.597877] (teleop_tools_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.606946] (-) TimerEvent: {}
+[0.709513] (-) TimerEvent: {}
+[0.811538] (-) TimerEvent: {}
+[0.914354] (-) TimerEvent: {}
+[1.018705] (-) TimerEvent: {}
+[1.035819] (teleop_tools_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.098400] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.121672] (-) TimerEvent: {}
+[1.232738] (-) TimerEvent: {}
+[1.334332] (-) TimerEvent: {}
+[1.439117] (-) TimerEvent: {}
+[1.539254] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.539555] (-) TimerEvent: {}
+[1.579199] (teleop_tools_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.579757] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.586222] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.597798] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.650507] (-) TimerEvent: {}
+[1.757523] (-) TimerEvent: {}
+[1.863550] (-) TimerEvent: {}
+[1.965791] (-) TimerEvent: {}
+[1.967283] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.993356] (teleop_tools_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.005436] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.005996] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.049081] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.066019] (-) TimerEvent: {}
+[2.166741] (-) TimerEvent: {}
+[2.174190] (key_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/key_teleop', 'build', '--build-base', '/home/pradeshi/ros2_ws3/build/key_teleop/build', 'install', '--record', '/home/pradeshi/ros2_ws3/build/key_teleop/install.log', '--install-scripts', '$base/lib/key_teleop', '--single-version-externally-managed'], 'cwd': '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi/ros2_ws3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/key_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/key_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.268208] (-) TimerEvent: {}
+[2.371311] (-) TimerEvent: {}
+[2.477969] (-) TimerEvent: {}
+[2.579063] (-) TimerEvent: {}
+[2.608799] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.679545] (-) TimerEvent: {}
+[2.791567] (-) TimerEvent: {}
+[2.842638] (key_teleop) StderrLine: {'line': b"/home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.843305] (key_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.894742] (-) TimerEvent: {}
+[2.945020] (key_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.947563] (key_teleop) StdoutLine: {'line': b'creating ../../../build/key_teleop/key_teleop.egg-info\n'}
+[2.948890] (key_teleop) StdoutLine: {'line': b'writing ../../../build/key_teleop/key_teleop.egg-info/PKG-INFO\n'}
+[2.950077] (key_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt\n'}
+[2.957826] (key_teleop) StdoutLine: {'line': b'writing entry points to ../../../build/key_teleop/key_teleop.egg-info/entry_points.txt\n'}
+[2.958502] (key_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/key_teleop/key_teleop.egg-info/requires.txt\n'}
+[2.958963] (key_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/key_teleop/key_teleop.egg-info/top_level.txt\n'}
+[2.959447] (key_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[2.959890] (key_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[2.960391] (key_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.962158] (key_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[2.963442] (key_teleop) StdoutLine: {'line': b'running build\n'}
+[2.964110] (key_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.965357] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/key_teleop/build\n'}
+[2.966278] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/key_teleop/build/lib\n'}
+[2.966890] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/key_teleop/build/lib/key_teleop\n'}
+[2.967746] (key_teleop) StdoutLine: {'line': b'copying key_teleop/__init__.py -> /home/pradeshi/ros2_ws3/build/key_teleop/build/lib/key_teleop\n'}
+[2.969119] (key_teleop) StdoutLine: {'line': b'copying key_teleop/key_teleop.py -> /home/pradeshi/ros2_ws3/build/key_teleop/build/lib/key_teleop\n'}
+[2.970618] (key_teleop) StdoutLine: {'line': b'running install\n'}
+[2.972519] (key_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[2.974834] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop\n'}
+[2.975823] (key_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/key_teleop/build/lib/key_teleop/__init__.py -> /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop\n'}
+[2.977069] (key_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/key_teleop/build/lib/key_teleop/key_teleop.py -> /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop\n'}
+[2.978988] (key_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[2.980313] (key_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-310.pyc\n'}
+[2.984630] (key_teleop) StdoutLine: {'line': b'running install_data\n'}
+[2.986678] (key_teleop) StdoutLine: {'line': b'copying package.xml -> /home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop\n'}
+[2.996417] (-) TimerEvent: {}
+[2.997522] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/config\n'}
+[2.998597] (key_teleop) StdoutLine: {'line': b'copying config/key_teleop.yaml -> /home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/config\n'}
+[3.001598] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/key_teleop/share/ament_index\n'}
+[3.009869] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/key_teleop/share/ament_index/resource_index\n'}
+[3.010576] (key_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/key_teleop/share/ament_index/resource_index/packages\n'}
+[3.011218] (key_teleop) StdoutLine: {'line': b'copying resource/key_teleop -> /home/pradeshi/ros2_ws3/install/key_teleop/share/ament_index/resource_index/packages\n'}
+[3.011750] (key_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.023879] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.024512] (key_teleop) StdoutLine: {'line': b'Copying ../../../build/key_teleop/key_teleop.egg-info to /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop-1.4.0-py3.10.egg-info\n'}
+[3.047779] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.048592] (key_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[3.083889] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.097057] (-) TimerEvent: {}
+[3.170748] (key_teleop) StdoutLine: {'line': b'Installing key_teleop script to /home/pradeshi/ros2_ws3/install/key_teleop/lib/key_teleop\n'}
+[3.178743] (key_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/pradeshi/ros2_ws3/build/key_teleop/install.log'\n"}
+[3.197438] (-) TimerEvent: {}
+[3.295328] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.310278] (-) TimerEvent: {}
+[3.326098] (key_teleop) CommandEnded: {'returncode': 0}
+[3.384776] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 0}
+[3.386279] (lane_detector) JobStarted: {'identifier': 'lane_detector'}
+[3.410899] (-) TimerEvent: {}
+[3.511800] (-) TimerEvent: {}
+[3.617355] (-) TimerEvent: {}
+[3.635522] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.721575] (-) TimerEvent: {}
+[3.826932] (-) TimerEvent: {}
+[3.948436] (-) TimerEvent: {}
+[4.057559] (-) TimerEvent: {}
+[4.165298] (-) TimerEvent: {}
+[4.266868] (-) TimerEvent: {}
+[4.367662] (-) TimerEvent: {}
+[4.469038] (-) TimerEvent: {}
+[4.572909] (-) TimerEvent: {}
+[4.685908] (-) TimerEvent: {}
+[4.788092] (-) TimerEvent: {}
+[4.893189] (-) TimerEvent: {}
+[4.974766] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.997853] (-) TimerEvent: {}
+[5.099546] (-) TimerEvent: {}
+[5.217897] (-) TimerEvent: {}
+[5.323424] (-) TimerEvent: {}
+[5.326631] (lane_detector) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/pradeshi/ros2_ws3/build/lane_detector/build'], 'cwd': '/home/pradeshi/ros2_ws3/build/lane_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi/ros2_ws3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/lane_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.431584] (-) TimerEvent: {}
+[5.538448] (-) TimerEvent: {}
+[5.591846] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.639464] (-) TimerEvent: {}
+[5.745905] (-) TimerEvent: {}
+[5.856345] (-) TimerEvent: {}
+[5.958290] (-) TimerEvent: {}
+[6.020502] (lane_detector) StdoutLine: {'line': b'running develop\n'}
+[6.061329] (-) TimerEvent: {}
+[6.169730] (-) TimerEvent: {}
+[6.271884] (-) TimerEvent: {}
+[6.373864] (-) TimerEvent: {}
+[6.416244] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.475012] (-) TimerEvent: {}
+[6.547166] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[6.561077] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.582400] (-) TimerEvent: {}
+[6.678191] (lane_detector) CommandEnded: {'returncode': 0}
+[6.679517] (lane_detector) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/lane_detector', 'build', '--build-base', '/home/pradeshi/ros2_ws3/build/lane_detector/build', 'install', '--record', '/home/pradeshi/ros2_ws3/build/lane_detector/install.log', '--single-version-externally-managed'], 'cwd': '/home/pradeshi/ros2_ws3/src/lane_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi/ros2_ws3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/lane_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.685306] (-) TimerEvent: {}
+[6.746261] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[6.747796] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.753150] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.753853] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.787566] (-) TimerEvent: {}
+[6.829770] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.889708] (-) TimerEvent: {}
+[6.981968] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.990100] (-) TimerEvent: {}
+[6.993540] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.999389] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.039034] (teleop_tools_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.092717] (-) TimerEvent: {}
+[7.162891] (teleop_tools_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[7.176717] (teleop_tools_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pradeshi/ros2_ws3/build/teleop_tools_msgs\n'}
+[7.201598] (-) TimerEvent: {}
+[7.203481] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[7.207845] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[7.208274] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs', '--', '-j2', '-l2'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[7.307927] (-) TimerEvent: {}
+[7.351444] (teleop_tools_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.369414] (teleop_tools_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.408996] (-) TimerEvent: {}
+[7.441707] (lane_detector) StdoutLine: {'line': b'running egg_info\n'}
+[7.444388] (lane_detector) StdoutLine: {'line': b'writing ../../build/lane_detector/lane_detector.egg-info/PKG-INFO\n'}
+[7.455496] (lane_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/lane_detector/lane_detector.egg-info/dependency_links.txt\n'}
+[7.457265] (lane_detector) StdoutLine: {'line': b'writing entry points to ../../build/lane_detector/lane_detector.egg-info/entry_points.txt\n'}
+[7.458441] (lane_detector) StdoutLine: {'line': b'writing requirements to ../../build/lane_detector/lane_detector.egg-info/requires.txt\n'}
+[7.458998] (lane_detector) StdoutLine: {'line': b'writing top-level names to ../../build/lane_detector/lane_detector.egg-info/top_level.txt\n'}
+[7.464960] (lane_detector) StdoutLine: {'line': b"reading manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'\n"}
+[7.479180] (lane_detector) StdoutLine: {'line': b"writing manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'\n"}
+[7.480066] (lane_detector) StdoutLine: {'line': b'running build\n'}
+[7.481793] (lane_detector) StdoutLine: {'line': b'running build_py\n'}
+[7.482188] (lane_detector) StdoutLine: {'line': b'running install\n'}
+[7.482521] (lane_detector) StdoutLine: {'line': b'running install_lib\n'}
+[7.483292] (lane_detector) StdoutLine: {'line': b'running install_data\n'}
+[7.484615] (lane_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.484957] (lane_detector) StdoutLine: {'line': b"removing '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.488351] (lane_detector) StdoutLine: {'line': b'Copying ../../build/lane_detector/lane_detector.egg-info to /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info\n'}
+[7.490783] (lane_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[7.517465] (-) TimerEvent: {}
+[7.581767] (lane_detector) StdoutLine: {'line': b'Installing opencv_sub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector\n'}
+[7.594917] (lane_detector) StdoutLine: {'line': b'Installing twist_sub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector\n'}
+[7.596206] (lane_detector) StdoutLine: {'line': b'Installing webcam_pub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector\n'}
+[7.597999] (lane_detector) StdoutLine: {'line': b"writing list of installed files to '/home/pradeshi/ros2_ws3/build/lane_detector/install.log'\n"}
+[7.625583] (-) TimerEvent: {}
+[7.727247] (-) TimerEvent: {}
+[7.766639] (lane_detector) CommandEnded: {'returncode': 0}
+[7.798557] (lane_detector) JobEnded: {'identifier': 'lane_detector', 'rc': 0}
+[7.800034] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[7.827578] (-) TimerEvent: {}
+[7.935179] (-) TimerEvent: {}
+[8.047869] (-) TimerEvent: {}
+[8.159720] (-) TimerEvent: {}
+[8.270413] (-) TimerEvent: {}
+[8.377051] (-) TimerEvent: {}
+[8.497046] (-) TimerEvent: {}
+[8.598230] (-) TimerEvent: {}
+[8.699681] (-) TimerEvent: {}
+[8.866845] (-) TimerEvent: {}
+[8.977937] (-) TimerEvent: {}
+[9.084290] (-) TimerEvent: {}
+[9.185008] (-) TimerEvent: {}
+[9.287822] (-) TimerEvent: {}
+[9.389914] (-) TimerEvent: {}
+[9.491568] (-) TimerEvent: {}
+[9.593767] (-) TimerEvent: {}
+[9.695340] (-) TimerEvent: {}
+[9.797328] (-) TimerEvent: {}
+[9.899836] (-) TimerEvent: {}
+[10.007126] (-) TimerEvent: {}
+[10.054661] (teleop_tools_msgs) StdoutLine: {'line': b'[  6%] Built target teleop_tools_msgs__cpp\n'}
+[10.098094] (teleop_tools_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o\x1b[0m\n'}
+[10.110202] (-) TimerEvent: {}
+[10.213468] (-) TimerEvent: {}
+[10.272728] (teleop_tools_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_teleop_tools_msgs\n'}
+[10.313622] (-) TimerEvent: {}
+[10.397804] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.417016] (-) TimerEvent: {}
+[10.517830] (-) TimerEvent: {}
+[10.631616] (-) TimerEvent: {}
+[10.657280] (mouse_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/mouse_teleop', 'build', '--build-base', '/home/pradeshi/ros2_ws3/build/mouse_teleop/build', 'install', '--record', '/home/pradeshi/ros2_ws3/build/mouse_teleop/install.log', '--install-scripts', '$base/lib/mouse_teleop', '--single-version-externally-managed'], 'cwd': '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi/ros2_ws3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/mouse_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/mouse_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.737481] (-) TimerEvent: {}
+[10.865527] (-) TimerEvent: {}
+[10.967452] (-) TimerEvent: {}
+[10.968218] (teleop_tools_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[11.070046] (-) TimerEvent: {}
+[11.174863] (-) TimerEvent: {}
+[11.237169] (teleop_tools_msgs) StdoutLine: {'line': b'[ 16%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[11.259805] (teleop_tools_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.277245] (-) TimerEvent: {}
+[11.382993] (-) TimerEvent: {}
+[11.490072] (-) TimerEvent: {}
+[11.582739] (mouse_teleop) StderrLine: {'line': b"/home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[11.583718] (mouse_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.590542] (-) TimerEvent: {}
+[11.688411] (mouse_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[11.689915] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o\x1b[0m\n'}
+[11.691121] (-) TimerEvent: {}
+[11.692692] (mouse_teleop) StdoutLine: {'line': b'creating ../../../build/mouse_teleop/mouse_teleop.egg-info\n'}
+[11.694034] (mouse_teleop) StdoutLine: {'line': b'writing ../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO\n'}
+[11.700009] (mouse_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt\n'}
+[11.700831] (mouse_teleop) StdoutLine: {'line': b'writing entry points to ../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt\n'}
+[11.701520] (mouse_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt\n'}
+[11.703496] (mouse_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt\n'}
+[11.704489] (mouse_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'\n"}
+[11.708898] (mouse_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'\n"}
+[11.710879] (mouse_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.712752] (mouse_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'\n"}
+[11.713596] (mouse_teleop) StdoutLine: {'line': b'running build\n'}
+[11.714007] (mouse_teleop) StdoutLine: {'line': b'running build_py\n'}
+[11.714661] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build\n'}
+[11.715211] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib\n'}
+[11.715749] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop\n'}
+[11.716113] (mouse_teleop) StdoutLine: {'line': b'copying mouse_teleop/__init__.py -> /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop\n'}
+[11.716771] (mouse_teleop) StdoutLine: {'line': b'copying mouse_teleop/mouse_teleop.py -> /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop\n'}
+[11.717488] (mouse_teleop) StdoutLine: {'line': b'running install\n'}
+[11.718416] (mouse_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[11.729674] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop\n'}
+[11.730441] (mouse_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop\n'}
+[11.731138] (mouse_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop\n'}
+[11.734926] (mouse_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[11.735710] (mouse_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-310.pyc\n'}
+[11.739377] (mouse_teleop) StdoutLine: {'line': b'running install_data\n'}
+[11.749007] (mouse_teleop) StdoutLine: {'line': b'copying package.xml -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop\n'}
+[11.749606] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/config\n'}
+[11.750079] (mouse_teleop) StdoutLine: {'line': b'copying config/mouse_teleop.yaml -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/config\n'}
+[11.750511] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/launch\n'}
+[11.750843] (mouse_teleop) StdoutLine: {'line': b'copying launch/mouse_teleop.launch.py -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/launch\n'}
+[11.751383] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index\n'}
+[11.751797] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index\n'}
+[11.752175] (mouse_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index/packages\n'}
+[11.752571] (mouse_teleop) StdoutLine: {'line': b'copying resource/mouse_teleop -> /home/pradeshi/ros2_ws3/install/mouse_teleop/share/ament_index/resource_index/packages\n'}
+[11.752804] (mouse_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.755742] (mouse_teleop) StdoutLine: {'line': b'Copying ../../../build/mouse_teleop/mouse_teleop.egg-info to /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop-1.4.0-py3.10.egg-info\n'}
+[11.757552] (mouse_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[11.796771] (-) TimerEvent: {}
+[11.805619] (mouse_teleop) StdoutLine: {'line': b'Installing mouse_teleop script to /home/pradeshi/ros2_ws3/install/mouse_teleop/lib/mouse_teleop\n'}
+[11.806838] (mouse_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/pradeshi/ros2_ws3/build/mouse_teleop/install.log'\n"}
+[11.895050] (mouse_teleop) CommandEnded: {'returncode': 0}
+[11.897253] (-) TimerEvent: {}
+[11.949881] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 0}
+[11.997686] (-) TimerEvent: {}
+[12.099149] (-) TimerEvent: {}
+[12.201771] (-) TimerEvent: {}
+[12.302718] (-) TimerEvent: {}
+[12.403720] (-) TimerEvent: {}
+[12.506784] (-) TimerEvent: {}
+[12.617975] (-) TimerEvent: {}
+[12.721431] (-) TimerEvent: {}
+[12.793430] (teleop_tools_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o\x1b[0m\n'}
+[12.827804] (-) TimerEvent: {}
+[12.930080] (-) TimerEvent: {}
+[13.031746] (-) TimerEvent: {}
+[13.134089] (-) TimerEvent: {}
+[13.239181] (-) TimerEvent: {}
+[13.341328] (-) TimerEvent: {}
+[13.443184] (-) TimerEvent: {}
+[13.544866] (-) TimerEvent: {}
+[13.646151] (-) TimerEvent: {}
+[13.749825] (-) TimerEvent: {}
+[13.750389] (teleop_tools_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.865192] (-) TimerEvent: {}
+[13.866077] (teleop_tools_msgs) StdoutLine: {'line': b'[ 29%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[13.888392] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.966591] (-) TimerEvent: {}
+[14.069373] (-) TimerEvent: {}
+[14.178011] (-) TimerEvent: {}
+[14.283411] (-) TimerEvent: {}
+[14.384692] (-) TimerEvent: {}
+[14.491634] (-) TimerEvent: {}
+[14.599936] (-) TimerEvent: {}
+[14.704255] (-) TimerEvent: {}
+[14.808150] (-) TimerEvent: {}
+[14.913259] (-) TimerEvent: {}
+[14.998138] (teleop_tools_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o\x1b[0m\n'}
+[15.013539] (-) TimerEvent: {}
+[15.089896] (teleop_tools_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.121555] (-) TimerEvent: {}
+[15.222554] (-) TimerEvent: {}
+[15.323800] (-) TimerEvent: {}
+[15.341931] (teleop_tools_msgs) StdoutLine: {'line': b'[ 38%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.425127] (-) TimerEvent: {}
+[15.528520] (-) TimerEvent: {}
+[15.647463] (-) TimerEvent: {}
+[15.750622] (-) TimerEvent: {}
+[15.854154] (-) TimerEvent: {}
+[15.961470] (-) TimerEvent: {}
+[16.073263] (-) TimerEvent: {}
+[16.085280] (teleop_tools_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[16.091610] (teleop_tools_msgs) StdoutLine: {'line': b'creating teleop_tools_msgs.egg-info\n'}
+[16.091886] (teleop_tools_msgs) StdoutLine: {'line': b'writing teleop_tools_msgs.egg-info/PKG-INFO\n'}
+[16.091999] (teleop_tools_msgs) StdoutLine: {'line': b'writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt\n'}
+[16.092139] (teleop_tools_msgs) StdoutLine: {'line': b'writing top-level names to teleop_tools_msgs.egg-info/top_level.txt\n'}
+[16.092242] (teleop_tools_msgs) StdoutLine: {'line': b"writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[16.092979] (teleop_tools_msgs) StdoutLine: {'line': b"reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[16.093157] (teleop_tools_msgs) StdoutLine: {'line': b"writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[16.173460] (-) TimerEvent: {}
+[16.243667] (teleop_tools_msgs) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_teleop_tools_msgs_egg\n'}
+[16.277586] (-) TimerEvent: {}
+[16.299193] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.412322] (-) TimerEvent: {}
+[16.513700] (-) TimerEvent: {}
+[16.621443] (-) TimerEvent: {}
+[16.722841] (-) TimerEvent: {}
+[16.793245] (teleop_tools_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.835708] (-) TimerEvent: {}
+[16.937548] (-) TimerEvent: {}
+[17.026571] (teleop_tools_msgs) StdoutLine: {'line': b'[ 45%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[17.044083] (teleop_tools_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.044607] (-) TimerEvent: {}
+[17.147300] (-) TimerEvent: {}
+[17.261478] (-) TimerEvent: {}
+[17.364435] (-) TimerEvent: {}
+[17.383261] (teleop_tools_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o\x1b[0m\n'}
+[17.465973] (-) TimerEvent: {}
+[17.568370] (-) TimerEvent: {}
+[17.677546] (-) TimerEvent: {}
+[17.790062] (-) TimerEvent: {}
+[17.893121] (-) TimerEvent: {}
+[18.000671] (-) TimerEvent: {}
+[18.106621] (-) TimerEvent: {}
+[18.161593] (teleop_tools_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o\x1b[0m\n'}
+[18.208421] (-) TimerEvent: {}
+[18.317709] (-) TimerEvent: {}
+[18.329008] (teleop_tools_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.409716] (teleop_tools_msgs) StdoutLine: {'line': b'[ 58%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[18.425573] (-) TimerEvent: {}
+[18.432391] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.527427] (-) TimerEvent: {}
+[18.628339] (-) TimerEvent: {}
+[18.670728] (teleop_tools_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.728609] (-) TimerEvent: {}
+[18.843558] (-) TimerEvent: {}
+[18.905156] (teleop_tools_msgs) StdoutLine: {'line': b'[ 64%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.944689] (-) TimerEvent: {}
+[19.049616] (-) TimerEvent: {}
+[19.154588] (-) TimerEvent: {}
+[19.210342] (teleop_tools_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o\x1b[0m\n'}
+[19.262705] (-) TimerEvent: {}
+[19.367984] (-) TimerEvent: {}
+[19.376405] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.471400] (-) TimerEvent: {}
+[19.507888] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[19.560490] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs\n'}
+[19.573658] (-) TimerEvent: {}
+[19.599295] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.687805] (-) TimerEvent: {}
+[19.799476] (-) TimerEvent: {}
+[19.900817] (-) TimerEvent: {}
+[20.026559] (-) TimerEvent: {}
+[20.127394] (-) TimerEvent: {}
+[20.228925] (-) TimerEvent: {}
+[20.339154] (-) TimerEvent: {}
+[20.440768] (-) TimerEvent: {}
+[20.542003] (-) TimerEvent: {}
+[20.643335] (-) TimerEvent: {}
+[20.747281] (-) TimerEvent: {}
+[20.854649] (-) TimerEvent: {}
+[20.955244] (-) TimerEvent: {}
+[21.058102] (-) TimerEvent: {}
+[21.161472] (-) TimerEvent: {}
+[21.273211] (-) TimerEvent: {}
+[21.336199] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] Built target teleop_tools_msgs__py\n'}
+[21.375099] (-) TimerEvent: {}
+[21.375817] (teleop_tools_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o\x1b[0m\n'}
+[21.475766] (-) TimerEvent: {}
+[21.576531] (-) TimerEvent: {}
+[21.677287] (-) TimerEvent: {}
+[21.779768] (-) TimerEvent: {}
+[21.858689] (teleop_tools_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[21.880084] (-) TimerEvent: {}
+[21.972410] (teleop_tools_msgs) StdoutLine: {'line': b'[ 80%] Built target teleop_tools_msgs__rosidl_generator_py\n'}
+[21.980494] (-) TimerEvent: {}
+[22.012615] (teleop_tools_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.029194] (teleop_tools_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.117737] (-) TimerEvent: {}
+[22.219475] (-) TimerEvent: {}
+[22.331496] (-) TimerEvent: {}
+[22.413494] (teleop_tools_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.432740] (-) TimerEvent: {}
+[22.468757] (teleop_tools_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.533832] (-) TimerEvent: {}
+[22.595487] (teleop_tools_msgs) StdoutLine: {'line': b'[ 93%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[22.631961] (teleop_tools_msgs) StdoutLine: {'line': b'[ 93%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.635233] (-) TimerEvent: {}
+[22.648214] (teleop_tools_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.737135] (-) TimerEvent: {}
+[22.838105] (-) TimerEvent: {}
+[22.881474] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.938581] (-) TimerEvent: {}
+[22.952886] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext\n'}
+[22.981056] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[23.039413] (-) TimerEvent: {}
+[23.126701] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'install'}
+[23.139654] (-) TimerEvent: {}
+[23.146014] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[23.162220] (teleop_tools_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.163174] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs\n'}
+[23.164038] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.164746] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg\n'}
+[23.165875] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.166836] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.179304] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.h\n'}
+[23.179867] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.180338] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__functions.c\n'}
+[23.180724] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.h\n'}
+[23.181074] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__functions.h\n'}
+[23.181564] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.h\n'}
+[23.181911] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh\n'}
+[23.184593] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv\n'}
+[23.185223] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so\n'}
+[23.186369] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so" to ""\n'}
+[23.186744] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.187084] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg\n'}
+[23.187691] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.188075] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.188424] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.188776] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h\n'}
+[23.189376] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[23.189728] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.190074] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.190416] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg\n'}
+[23.190769] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.191107] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.191735] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.192091] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h\n'}
+[23.192441] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.c\n'}
+[23.193053] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so\n'}
+[23.193663] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.194371] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so\n'}
+[23.194728] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""\n'}
+[23.195268] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.195641] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.196373] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.196745] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__builder.hpp\n'}
+[23.197093] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.hpp\n'}
+[23.197667] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__traits.hpp\n'}
+[23.198281] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.hpp\n'}
+[23.198642] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.198986] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg\n'}
+[23.199621] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.199993] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.200326] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.200719] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.201074] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/dds_fastrtps\n'}
+[23.201549] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.202387] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.202947] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs\n'}
+[23.203519] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action\n'}
+[23.204096] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail\n'}
+[23.204681] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.205516] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.cpp\n'}
+[23.206510] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[23.207750] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.208377] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so\n'}
+[23.209475] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[23.210151] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh\n'}
+[23.210912] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv\n'}
+[23.211678] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.4.0-py3.10.egg-info\n'}
+[23.212492] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.4.0-py3.10.egg-info/top_level.txt\n'}
+[23.213221] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.4.0-py3.10.egg-info/SOURCES.txt\n'}
+[23.213962] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.4.0-py3.10.egg-info/dependency_links.txt\n'}
+[23.214681] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs-1.4.0-py3.10.egg-info/PKG-INFO\n'}
+[23.215654] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs\n'}
+[23.216355] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so\n'}
+[23.217108] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.218004] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/__init__.py\n'}
+[23.218693] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[23.219478] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action\n'}
+[23.220125] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/__init__.py\n'}
+[23.220858] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment_s.c\n'}
+[23.221751] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment.py\n'}
+[23.222567] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.223385] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.224190] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.225023] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.257822] (-) TimerEvent: {}
+[23.345633] (teleop_tools_msgs) StdoutLine: {'line': b"Listing '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs'...\n"}
+[23.346049] (teleop_tools_msgs) StdoutLine: {'line': b"Compiling '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/__init__.py'...\n"}
+[23.346224] (teleop_tools_msgs) StdoutLine: {'line': b"Listing '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action'...\n"}
+[23.346369] (teleop_tools_msgs) StdoutLine: {'line': b"Compiling '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/__init__.py'...\n"}
+[23.346512] (teleop_tools_msgs) StdoutLine: {'line': b"Compiling '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/action/_increment.py'...\n"}
+[23.355260] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.356610] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.357388] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.359743] (-) TimerEvent: {}
+[23.360333] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.361435] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.362627] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.363825] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so\n'}
+[23.364566] (teleop_tools_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so" to ""\n'}
+[23.365004] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl\n'}
+[23.365575] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action\n'}
+[23.365959] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs\n'}
+[23.366468] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs\n'}
+[23.366901] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh\n'}
+[23.367406] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv\n'}
+[23.367901] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh\n'}
+[23.368387] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv\n'}
+[23.368871] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash\n'}
+[23.369332] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh\n'}
+[23.369966] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh\n'}
+[23.370470] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv\n'}
+[23.372404] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv\n'}
+[23.372910] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs\n'}
+[23.373197] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport.cmake\n'}
+[23.373463] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.373764] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.374084] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.374350] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.374798] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.380527] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake\n'}
+[23.381608] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.382802] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cppExport.cmake\n'}
+[23.383216] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.384014] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.384586] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.386180] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.386795] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[23.387050] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.387253] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport.cmake\n'}
+[23.387398] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.387535] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[23.387669] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.388127] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.388288] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.388416] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.388544] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.388674] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.388800] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake\n'}
+[23.388929] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake\n'}
+[23.389334] (teleop_tools_msgs) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml\n'}
+[23.389486] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[23.460251] (-) TimerEvent: {}
+[23.561231] (-) TimerEvent: {}
+[23.573438] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 0}
+[23.579724] (joy_teleop) JobStarted: {'identifier': 'joy_teleop'}
+[23.663001] (-) TimerEvent: {}
+[23.764007] (-) TimerEvent: {}
+[23.867873] (-) TimerEvent: {}
+[23.976860] (-) TimerEvent: {}
+[24.077757] (-) TimerEvent: {}
+[24.188417] (-) TimerEvent: {}
+[24.289069] (-) TimerEvent: {}
+[24.399464] (-) TimerEvent: {}
+[24.502092] (-) TimerEvent: {}
+[24.614915] (-) TimerEvent: {}
+[24.717981] (-) TimerEvent: {}
+[24.819474] (-) TimerEvent: {}
+[24.920243] (-) TimerEvent: {}
+[25.020285] (joy_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/joy_teleop', 'build', '--build-base', '/home/pradeshi/ros2_ws3/build/joy_teleop/build', 'install', '--record', '/home/pradeshi/ros2_ws3/build/joy_teleop/install.log', '--install-scripts', '$base/lib/joy_teleop', '--single-version-externally-managed'], 'cwd': '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi/ros2_ws3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/joy_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/joy_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs'}, 'shell': False}
+[25.022886] (-) TimerEvent: {}
+[25.123612] (-) TimerEvent: {}
+[25.225124] (-) TimerEvent: {}
+[25.326550] (-) TimerEvent: {}
+[25.427150] (-) TimerEvent: {}
+[25.469568] (joy_teleop) StderrLine: {'line': b"/home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[25.469883] (joy_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[25.525152] (joy_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[25.526332] (joy_teleop) StdoutLine: {'line': b'creating ../../../build/joy_teleop/joy_teleop.egg-info\n'}
+[25.527084] (joy_teleop) StdoutLine: {'line': b'writing ../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO\n'}
+[25.527360] (-) TimerEvent: {}
+[25.528174] (joy_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt\n'}
+[25.528858] (joy_teleop) StdoutLine: {'line': b'writing entry points to ../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt\n'}
+[25.529130] (joy_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/joy_teleop/joy_teleop.egg-info/requires.txt\n'}
+[25.567274] (joy_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt\n'}
+[25.568086] (joy_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'\n"}
+[25.572428] (joy_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'\n"}
+[25.575783] (joy_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'\n"}
+[25.576444] (joy_teleop) StdoutLine: {'line': b'running build\n'}
+[25.576998] (joy_teleop) StdoutLine: {'line': b'running build_py\n'}
+[25.577454] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/joy_teleop/build\n'}
+[25.578159] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib\n'}
+[25.578615] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop\n'}
+[25.579093] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/__init__.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop\n'}
+[25.579462] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/incrementer_server.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop\n'}
+[25.579732] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/joy_teleop.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop\n'}
+[25.580320] (joy_teleop) StdoutLine: {'line': b'running install\n'}
+[25.580873] (joy_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[25.582421] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop\n'}
+[25.583135] (joy_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop\n'}
+[25.583951] (joy_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop\n'}
+[25.584414] (joy_teleop) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop\n'}
+[25.585395] (joy_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[25.586060] (joy_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-310.pyc\n'}
+[25.587598] (joy_teleop) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-310.pyc\n'}
+[25.591857] (joy_teleop) StdoutLine: {'line': b'running install_data\n'}
+[25.593235] (joy_teleop) StdoutLine: {'line': b'copying package.xml -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop\n'}
+[25.594450] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/config\n'}
+[25.595519] (joy_teleop) StdoutLine: {'line': b'copying config/joy_teleop_example.yaml -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/config\n'}
+[25.596026] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/launch\n'}
+[25.596465] (joy_teleop) StdoutLine: {'line': b'copying launch/example.launch.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/launch\n'}
+[25.596944] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index\n'}
+[25.597375] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index\n'}
+[25.597771] (joy_teleop) StdoutLine: {'line': b'creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index/packages\n'}
+[25.598167] (joy_teleop) StdoutLine: {'line': b'copying resource/joy_teleop -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index/packages\n'}
+[25.598556] (joy_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.599468] (joy_teleop) StdoutLine: {'line': b'Copying ../../../build/joy_teleop/joy_teleop.egg-info to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-1.4.0-py3.10.egg-info\n'}
+[25.601203] (joy_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[25.628163] (-) TimerEvent: {}
+[25.635373] (joy_teleop) StdoutLine: {'line': b'Installing incrementer_server script to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/joy_teleop\n'}
+[25.636277] (joy_teleop) StdoutLine: {'line': b'Installing joy_teleop script to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/joy_teleop\n'}
+[25.637078] (joy_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/pradeshi/ros2_ws3/build/joy_teleop/install.log'\n"}
+[25.701783] (joy_teleop) CommandEnded: {'returncode': 0}
+[25.723068] (joy_teleop) JobEnded: {'identifier': 'joy_teleop', 'rc': 0}
+[25.730834] (-) TimerEvent: {}
+[25.731300] (teleop_tools) JobStarted: {'identifier': 'teleop_tools'}
+[25.768767] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'cmake'}
+[25.770638] (teleop_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools', '-DCMAKE_INSTALL_PREFIX=/home/pradeshi/ros2_ws3/install/teleop_tools'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[25.813457] (teleop_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[25.837218] (-) TimerEvent: {}
+[25.947047] (-) TimerEvent: {}
+[26.049285] (-) TimerEvent: {}
+[26.152882] (-) TimerEvent: {}
+[26.254040] (-) TimerEvent: {}
+[26.303393] (teleop_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[26.358167] (-) TimerEvent: {}
+[26.460330] (-) TimerEvent: {}
+[26.561658] (-) TimerEvent: {}
+[26.638930] (teleop_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[26.645197] (teleop_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[26.648237] (teleop_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/pradeshi/ros2_ws3/build/teleop_tools\n'}
+[26.652356] (teleop_tools) CommandEnded: {'returncode': 0}
+[26.656217] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'build'}
+[26.656835] (teleop_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pradeshi/ros2_ws3/build/teleop_tools', '--', '-j2', '-l2'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[26.671353] (-) TimerEvent: {}
+[26.722547] (teleop_tools) CommandEnded: {'returncode': 0}
+[26.763301] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'install'}
+[26.765930] (teleop_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pradeshi/ros2_ws3/build/teleop_tools'], 'cwd': '/home/pradeshi/ros2_ws3/build/teleop_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'pradeshi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradeshi'), ('OLDPWD', '/home/pradeshi/ros2_ws3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradeshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pradeshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJQE71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pradeshi/ros2_ws3/build/teleop_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble')]), 'shell': False}
+[26.778417] (-) TimerEvent: {}
+[26.779595] (teleop_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.780561] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/ament_index/resource_index/package_run_dependencies/teleop_tools\n'}
+[26.781570] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/ament_index/resource_index/parent_prefix_path/teleop_tools\n'}
+[26.782122] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.sh\n'}
+[26.782598] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.dsv\n'}
+[26.783217] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/environment/path.sh\n'}
+[26.783697] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/environment/path.dsv\n'}
+[26.784181] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/local_setup.bash\n'}
+[26.784672] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/local_setup.sh\n'}
+[26.785240] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/local_setup.zsh\n'}
+[26.785714] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/local_setup.dsv\n'}
+[26.786360] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.dsv\n'}
+[26.786900] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/ament_index/resource_index/packages/teleop_tools\n'}
+[26.787527] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig.cmake\n'}
+[26.787904] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig-version.cmake\n'}
+[26.788958] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.xml\n'}
+[26.797003] (teleop_tools) CommandEnded: {'returncode': 0}
+[26.878110] (teleop_tools) JobEnded: {'identifier': 'teleop_tools', 'rc': 0}
+[26.879080] (-) TimerEvent: {}
+[26.881633] (-) EventReactorShutdown: {}

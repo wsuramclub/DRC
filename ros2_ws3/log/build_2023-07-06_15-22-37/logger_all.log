@@ -1,0 +1,428 @@
+[0.636s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.636s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb2e74c9ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb2e74c9630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb2e74c9630>>)
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.680s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pradeshi/ros2_ws3'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extension 'colcon_meta'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extensions ['ros']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detector) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lane_detector' with type 'ros.ament_python' and name 'lane_detector'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ros'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['cmake', 'python']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'cmake'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python_setup_py'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'colcon_pkg'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['colcon_meta']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/key_teleop' with type 'ros.ament_python' and name 'key_teleop'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'colcon_meta'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['ros']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ros'
+[0.717s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/mouse_teleop' with type 'ros.ament_python' and name 'mouse_teleop'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/teleop_tools' with type 'ros.ament_cmake' and name 'teleop_tools'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_meta']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_meta'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ros'
+[0.722s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/teleop_tools_msgs' with type 'ros.ament_cmake' and name 'teleop_tools_msgs'
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/pradeshi/ros2_ws3/install
+[0.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pradeshi/ros2_ws1/install
+[0.774s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.878s] DEBUG:colcon.colcon_core.verb:Building package 'key_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/key_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/key_teleop', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_args' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_target' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.881s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.881s] Level 5:colcon.colcon_core.verb:set package 'lane_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.881s] DEBUG:colcon.colcon_core.verb:Building package 'lane_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/lane_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/lane_detector', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/lane_detector', 'symlink_install': False, 'test_result_base': None}
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_args' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.884s] DEBUG:colcon.colcon_core.verb:Building package 'mouse_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/mouse_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/mouse_teleop', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.887s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.891s] DEBUG:colcon.colcon_core.verb:Building package 'joy_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/joy_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/joy_teleop', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.894s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pradeshi/ros2_ws3/build/teleop_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pradeshi/ros2_ws3/install/teleop_tools', 'merge_install': False, 'path': '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools', 'symlink_install': False, 'test_result_base': None}
+[0.895s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools_msgs' with build type 'ament_cmake'
+[0.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools_msgs'
+[0.910s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.923s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop' with build type 'ament_python'
+[0.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'ament_prefix_path')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/ament_prefix_path.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/ament_prefix_path.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/ament_prefix_path.sh'
+[0.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools_msgs -- -j2 -l2
+[2.015s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop'
+[2.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools_msgs -- -j2 -l2
+[3.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools_msgs
+[3.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs' for CMake module files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs' for CMake config files
+[3.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools_msgs
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib'
+[3.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[3.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/bin'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/python3.10/site-packages'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/bin'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[3.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[3.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[3.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop': PYTHONPATH=/home/pradeshi/ros2_ws3/build/key_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/pradeshi/ros2_ws3/build/key_teleop/build install --record /home/pradeshi/ros2_ws3/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed
+[3.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs' for CMake module files
+[3.376s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs' for CMake config files
+[3.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[3.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[3.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib'
+[3.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[3.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[3.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/bin'
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib/python3.10/site-packages'
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/bin'
+[3.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[3.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[3.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[3.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[3.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[3.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop' with build type 'ament_python'
+[3.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'ament_prefix_path')
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.ps1'
+[3.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.dsv'
+[3.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.sh'
+[3.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop'
+[4.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.444s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop' for CMake module files
+[4.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/key_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/pradeshi/ros2_ws3/build/key_teleop/build install --record /home/pradeshi/ros2_ws3/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop' for CMake config files
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop/lib'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop/bin'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop/lib/pkgconfig/key_teleop.pc'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages'
+[4.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'pythonpath')
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/pythonpath.ps1'
+[4.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/pythonpath.dsv'
+[4.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/hook/pythonpath.sh'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/key_teleop/bin'
+[4.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(key_teleop)
+[4.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/package.ps1'
+[4.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/package.dsv'
+[4.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/package.sh'
+[4.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/package.bash'
+[4.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/key_teleop/share/key_teleop/package.zsh'
+[4.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/key_teleop/share/colcon-core/packages/key_teleop)
+[4.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/lane_detector' with build type 'ament_python'
+[4.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_detector', 'ament_prefix_path')
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/ament_prefix_path.ps1'
+[4.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/ament_prefix_path.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/ament_prefix_path.sh'
+[4.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.297s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pradeshi/ros2_ws3/src/lane_detector'
+[5.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/build/joy_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/pradeshi/ros2_ws3/build/joy_teleop/build install --record /home/pradeshi/ros2_ws3/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed
+[6.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/build/lane_detector': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pradeshi/ros2_ws3/build/lane_detector/build
+[6.471s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop' for CMake module files
+[6.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/build/joy_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/pradeshi/ros2_ws3/build/joy_teleop/build install --record /home/pradeshi/ros2_ws3/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed
+[6.475s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop' for CMake config files
+[6.477s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop/lib'
+[6.477s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop/bin'
+[6.477s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop/lib/pkgconfig/joy_teleop.pc'
+[6.478s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages'
+[6.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'pythonpath')
+[6.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/pythonpath.ps1'
+[6.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/pythonpath.dsv'
+[6.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/hook/pythonpath.sh'
+[6.487s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/joy_teleop/bin'
+[6.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_teleop)
+[6.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/package.ps1'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/package.dsv'
+[6.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/package.sh'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/package.bash'
+[6.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/package.zsh'
+[6.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/joy_teleop/share/colcon-core/packages/joy_teleop)
+[6.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop' with build type 'ament_python'
+[6.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'ament_prefix_path')
+[6.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.ps1'
+[6.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.dsv'
+[6.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.sh'
+[6.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop'
+[7.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/build/lane_detector' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pradeshi/ros2_ws3/build/lane_detector/build
+[7.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/src/lane_detector': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detector build --build-base /home/pradeshi/ros2_ws3/build/lane_detector/build install --record /home/pradeshi/ros2_ws3/build/lane_detector/install.log --single-version-externally-managed
+[8.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop': PYTHONPATH=/home/pradeshi/ros2_ws3/build/mouse_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/pradeshi/ros2_ws3/build/mouse_teleop/build install --record /home/pradeshi/ros2_ws3/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[8.846s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector' for CMake module files
+[8.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/src/lane_detector' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detector build --build-base /home/pradeshi/ros2_ws3/build/lane_detector/build install --record /home/pradeshi/ros2_ws3/build/lane_detector/install.log --single-version-externally-managed
+[8.868s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector' for CMake config files
+[8.870s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector/lib'
+[8.870s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector/bin'
+[8.870s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector/lib/pkgconfig/lane_detector.pc'
+[8.871s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages'
+[8.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_detector', 'pythonpath')
+[8.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/pythonpath.ps1'
+[8.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/pythonpath.dsv'
+[8.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/hook/pythonpath.sh'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/lane_detector/bin'
+[8.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lane_detector)
+[8.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/package.ps1'
+[8.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/package.dsv'
+[8.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/package.sh'
+[8.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/package.bash'
+[8.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector/package.zsh'
+[8.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/lane_detector/share/colcon-core/packages/lane_detector)
+[8.898s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools' with build type 'ament_cmake'
+[8.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools'
+[8.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools -- -j2 -l2
+[9.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools -- -j2 -l2
+[9.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools
+[9.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[9.318s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools' for CMake module files
+[9.319s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools' for CMake config files
+[9.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[9.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[9.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/joy_teleop:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/key_teleop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools
+[9.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[9.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[9.327s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/bin'
+[9.327s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[9.328s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/lib/python3.10/site-packages'
+[9.328s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/bin'
+[9.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.ps1'
+[9.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.dsv'
+[9.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.sh'
+[9.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.bash'
+[9.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.zsh'
+[9.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[9.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[9.425s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools' for CMake module files
+[9.426s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools' for CMake config files
+[9.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[9.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[9.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[9.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[9.438s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/bin'
+[9.439s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[9.439s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/lib/python3.10/site-packages'
+[9.440s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/teleop_tools/bin'
+[9.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.ps1'
+[9.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.dsv'
+[9.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.sh'
+[9.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.bash'
+[9.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/teleop_tools/share/teleop_tools/package.zsh'
+[9.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[9.520s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop' for CMake module files
+[9.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/mouse_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/pradeshi/ros2_ws3/build/mouse_teleop/build install --record /home/pradeshi/ros2_ws3/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[9.523s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop' for CMake config files
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop/lib'
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop/bin'
+[9.527s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/pkgconfig/mouse_teleop.pc'
+[9.528s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop/lib/python3.10/site-packages'
+[9.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'pythonpath')
+[9.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.ps1'
+[9.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.dsv'
+[9.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.sh'
+[9.537s] Level 1:colcon.colcon_core.environment:checking '/home/pradeshi/ros2_ws3/install/mouse_teleop/bin'
+[9.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mouse_teleop)
+[9.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/package.ps1'
+[9.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/package.dsv'
+[9.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/package.sh'
+[9.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/package.bash'
+[9.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/pradeshi/ros2_ws3/install/mouse_teleop/share/mouse_teleop/package.zsh'
+[9.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pradeshi/ros2_ws3/install/mouse_teleop/share/colcon-core/packages/mouse_teleop)
+[9.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.548s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.548s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.562s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.603s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pradeshi/ros2_ws3/install/local_setup.ps1'
+[9.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pradeshi/ros2_ws3/install/_local_setup_util_ps1.py'
+[9.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pradeshi/ros2_ws3/install/setup.ps1'
+[9.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pradeshi/ros2_ws3/install/local_setup.sh'
+[9.625s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pradeshi/ros2_ws3/install/_local_setup_util_sh.py'
+[9.627s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pradeshi/ros2_ws3/install/setup.sh'
+[9.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pradeshi/ros2_ws3/install/local_setup.bash'
+[9.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pradeshi/ros2_ws3/install/setup.bash'
+[9.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pradeshi/ros2_ws3/install/local_setup.zsh'
+[9.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pradeshi/ros2_ws3/install/setup.zsh'

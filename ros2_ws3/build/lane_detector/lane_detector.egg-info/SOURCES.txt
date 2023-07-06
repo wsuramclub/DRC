@@ -10,6 +10,7 @@ setup.py
 ../../build/lane_detector/lane_detector.egg-info/zip-safe
 lane_detector/__init__.py
 lane_detector/camera_publisher.py
+lane_detector/motor_controller.py
 lane_detector/opencv_subscriber.py
 resource/lane_detector
 test/test_copyright.py

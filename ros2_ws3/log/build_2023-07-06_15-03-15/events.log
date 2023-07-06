@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001149] (lane_detector) JobQueued: {'identifier': 'lane_detector', 'dependencies': OrderedDict()}
+[0.001265] (lane_detector) JobStarted: {'identifier': 'lane_detector'}
+[0.104135] (-) TimerEvent: {}
+[0.204980] (-) TimerEvent: {}
+[0.306115] (-) TimerEvent: {}
+[0.406685] (-) TimerEvent: {}
+[0.508167] (-) TimerEvent: {}
+[0.609333] (-) TimerEvent: {}
+[0.710029] (-) TimerEvent: {}
+[0.811574] (-) TimerEvent: {}
+[0.912238] (-) TimerEvent: {}
+[1.013253] (-) TimerEvent: {}
+[1.114523] (-) TimerEvent: {}
+[1.215081] (-) TimerEvent: {}
+[1.315660] (-) TimerEvent: {}
+[1.416656] (-) TimerEvent: {}
+[1.517553] (-) TimerEvent: {}
+[1.569815] (lane_detector) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/pradeshi/ros2_ws3/build/lane_detector/build'], 'cwd': '/home/pradeshi/ros2_ws3/build/lane_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/lane_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.623584] (-) TimerEvent: {}
+[1.726434] (-) TimerEvent: {}
+[1.827425] (-) TimerEvent: {}
+[1.932562] (-) TimerEvent: {}
+[2.034273] (-) TimerEvent: {}
+[2.092716] (lane_detector) StdoutLine: {'line': b'running develop\n'}
+[2.134765] (-) TimerEvent: {}
+[2.243140] (-) TimerEvent: {}
+[2.344326] (-) TimerEvent: {}
+[2.445495] (-) TimerEvent: {}
+[2.546116] (-) TimerEvent: {}
+[2.604943] (lane_detector) CommandEnded: {'returncode': 0}
+[2.606277] (lane_detector) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/lane_detector', 'build', '--build-base', '/home/pradeshi/ros2_ws3/build/lane_detector/build', 'install', '--record', '/home/pradeshi/ros2_ws3/build/lane_detector/install.log', '--single-version-externally-managed'], 'cwd': '/home/pradeshi/ros2_ws3/src/lane_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'pradeshi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradeshi', 'OLDPWD': '/home/pradeshi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install:/home/pradeshi/ros2_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradeshi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pradeshi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pradeshi-virtual-machine:@/tmp/.ICE-unix/1762,unix/pradeshi-virtual-machine:/tmp/.ICE-unix/1762', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a74d1d_aeb8_4d77_a38d_1d390147a3f3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJQE71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pradeshi/ros2_ws3/build/lane_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradeshi/ros2_ws3/build/lane_detector/prefix_override:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.646864] (-) TimerEvent: {}
+[2.747693] (-) TimerEvent: {}
+[2.849785] (-) TimerEvent: {}
+[2.950823] (-) TimerEvent: {}
+[3.053544] (-) TimerEvent: {}
+[3.128679] (lane_detector) StdoutLine: {'line': b'running egg_info\n'}
+[3.131130] (lane_detector) StdoutLine: {'line': b'writing ../../build/lane_detector/lane_detector.egg-info/PKG-INFO\n'}
+[3.153943] (-) TimerEvent: {}
+[3.170279] (lane_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/lane_detector/lane_detector.egg-info/dependency_links.txt\n'}
+[3.171375] (lane_detector) StdoutLine: {'line': b'writing entry points to ../../build/lane_detector/lane_detector.egg-info/entry_points.txt\n'}
+[3.172359] (lane_detector) StdoutLine: {'line': b'writing requirements to ../../build/lane_detector/lane_detector.egg-info/requires.txt\n'}
+[3.173463] (lane_detector) StdoutLine: {'line': b'writing top-level names to ../../build/lane_detector/lane_detector.egg-info/top_level.txt\n'}
+[3.179708] (lane_detector) StdoutLine: {'line': b"reading manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'\n"}
+[3.183419] (lane_detector) StdoutLine: {'line': b"writing manifest file '../../build/lane_detector/lane_detector.egg-info/SOURCES.txt'\n"}
+[3.184240] (lane_detector) StdoutLine: {'line': b'running build\n'}
+[3.184637] (lane_detector) StdoutLine: {'line': b'running build_py\n'}
+[3.185498] (lane_detector) StdoutLine: {'line': b'copying lane_detector/opencv_subscriber.py -> /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector\n'}
+[3.187936] (lane_detector) StdoutLine: {'line': b'copying lane_detector/motor_controller.py -> /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector\n'}
+[3.188711] (lane_detector) StdoutLine: {'line': b'copying lane_detector/camera_publisher.py -> /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector\n'}
+[3.192282] (lane_detector) StdoutLine: {'line': b'running install\n'}
+[3.192869] (lane_detector) StdoutLine: {'line': b'running install_lib\n'}
+[3.196058] (lane_detector) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector/opencv_subscriber.py -> /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector\n'}
+[3.197476] (lane_detector) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector/motor_controller.py -> /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector\n'}
+[3.198319] (lane_detector) StdoutLine: {'line': b'copying /home/pradeshi/ros2_ws3/build/lane_detector/build/lib/lane_detector/camera_publisher.py -> /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector\n'}
+[3.200105] (lane_detector) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector/opencv_subscriber.py to opencv_subscriber.cpython-310.pyc\n'}
+[3.205111] (lane_detector) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[3.206696] (lane_detector) StdoutLine: {'line': b'byte-compiling /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector/camera_publisher.py to camera_publisher.cpython-310.pyc\n'}
+[3.208665] (lane_detector) StdoutLine: {'line': b'running install_data\n'}
+[3.210301] (lane_detector) StdoutLine: {'line': b'copying package.xml -> /home/pradeshi/ros2_ws3/install/lane_detector/share/lane_detector\n'}
+[3.211157] (lane_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.214537] (lane_detector) StdoutLine: {'line': b"removing '/home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.218457] (lane_detector) StdoutLine: {'line': b'Copying ../../build/lane_detector/lane_detector.egg-info to /home/pradeshi/ros2_ws3/install/lane_detector/lib/python3.10/site-packages/lane_detector-0.0.0-py3.10.egg-info\n'}
+[3.222038] (lane_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[3.254941] (-) TimerEvent: {}
+[3.257335] (lane_detector) StdoutLine: {'line': b'Installing opencv_sub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector\n'}
+[3.258429] (lane_detector) StdoutLine: {'line': b'Installing webcam_pub script to /home/pradeshi/ros2_ws3/install/lane_detector/lib/lane_detector\n'}
+[3.259605] (lane_detector) StdoutLine: {'line': b"writing list of installed files to '/home/pradeshi/ros2_ws3/build/lane_detector/install.log'\n"}
+[3.322368] (lane_detector) CommandEnded: {'returncode': 0}
+[3.356048] (-) TimerEvent: {}
+[3.400055] (lane_detector) JobEnded: {'identifier': 'lane_detector', 'rc': 0}
+[3.402542] (-) EventReactorShutdown: {}

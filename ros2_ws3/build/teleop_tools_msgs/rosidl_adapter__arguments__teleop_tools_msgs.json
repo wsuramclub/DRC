@@ -1,0 +1,6 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "non_idl_tuples": [
+    "/home/pradeshi/ros2_ws3/src/teleop_tools/teleop_tools_msgs:action/Increment.action"
+  ]
+}

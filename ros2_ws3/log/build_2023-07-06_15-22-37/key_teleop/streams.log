@@ -1,0 +1,24 @@
+[2.415s] Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop': PYTHONPATH=/home/pradeshi/ros2_ws3/build/key_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/pradeshi/ros2_ws3/build/key_teleop/build install --record /home/pradeshi/ros2_ws3/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed
+[3.036s] /home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.037s]   warnings.warn(
+[3.124s] running egg_info
+[3.126s] writing ../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[3.131s] writing dependency_links to ../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[3.131s] writing entry points to ../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[3.138s] writing requirements to ../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[3.138s] writing top-level names to ../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[3.147s] reading manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.148s] adding license file 'LICENSE'
+[3.153s] writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.153s] running build
+[3.154s] running build_py
+[3.159s] running install
+[3.163s] running install_lib
+[3.177s] running install_data
+[3.177s] running install_egg_info
+[3.177s] removing '/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop-1.4.0-py3.10.egg-info' (and everything under it)
+[3.192s] Copying ../../../build/key_teleop/key_teleop.egg-info to /home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages/key_teleop-1.4.0-py3.10.egg-info
+[3.194s] running install_scripts
+[3.273s] Installing key_teleop script to /home/pradeshi/ros2_ws3/install/key_teleop/lib/key_teleop
+[3.283s] writing list of installed files to '/home/pradeshi/ros2_ws3/build/key_teleop/install.log'
+[3.518s] Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/pradeshi/ros2_ws3/build/key_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/pradeshi/ros2_ws3/build/key_teleop/build install --record /home/pradeshi/ros2_ws3/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed

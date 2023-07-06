@@ -1,0 +1,4 @@
+Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools_msgs -- -j2 -l2
+Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --build /home/pradeshi/ros2_ws3/build/teleop_tools_msgs -- -j2 -l2
+Invoking command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools_msgs
+Invoked command in '/home/pradeshi/ros2_ws3/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/lane_detector:/opt/ros/humble /usr/bin/cmake --install /home/pradeshi/ros2_ws3/build/teleop_tools_msgs

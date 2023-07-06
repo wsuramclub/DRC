@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             "webcam_pub= lane_detector.camera_publisher:main",
             "opencv_sub= lane_detector.opencv_subscriber:main",
+            "twist_sub= lane_detector.motor_controller:main",
+
 
         ],
     },

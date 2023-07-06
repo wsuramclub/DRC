@@ -1,0 +1,47 @@
+[1.443s] Invoking command in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/build/joy_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/pradeshi/ros2_ws3/build/joy_teleop/build install --record /home/pradeshi/ros2_ws3/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed
+[1.890s] /home/pradeshi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.890s]   warnings.warn(
+[1.946s] running egg_info
+[1.947s] creating ../../../build/joy_teleop/joy_teleop.egg-info
+[1.947s] writing ../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[1.949s] writing dependency_links to ../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[1.949s] writing entry points to ../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[1.949s] writing requirements to ../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[1.988s] writing top-level names to ../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[1.988s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[1.993s] reading manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[1.996s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[1.997s] running build
+[1.997s] running build_py
+[1.998s] creating /home/pradeshi/ros2_ws3/build/joy_teleop/build
+[1.998s] creating /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib
+[1.999s] creating /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop
+[2.000s] copying joy_teleop/__init__.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop
+[2.000s] copying joy_teleop/incrementer_server.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop
+[2.000s] copying joy_teleop/joy_teleop.py -> /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop
+[2.001s] running install
+[2.001s] running install_lib
+[2.003s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.004s] copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.004s] copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.005s] copying /home/pradeshi/ros2_ws3/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.006s] byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/__init__.py to __init__.cpython-310.pyc
+[2.007s] byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-310.pyc
+[2.008s] byte-compiling /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-310.pyc
+[2.012s] running install_data
+[2.014s] copying package.xml -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop
+[2.015s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/config
+[2.016s] copying config/joy_teleop_example.yaml -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/config
+[2.017s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/launch
+[2.017s] copying launch/example.launch.py -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/joy_teleop/launch
+[2.017s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index
+[2.018s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index
+[2.018s] creating /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index/packages
+[2.019s] copying resource/joy_teleop -> /home/pradeshi/ros2_ws3/install/joy_teleop/share/ament_index/resource_index/packages
+[2.019s] running install_egg_info
+[2.020s] Copying ../../../build/joy_teleop/joy_teleop.egg-info to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-1.4.0-py3.10.egg-info
+[2.022s] running install_scripts
+[2.056s] Installing incrementer_server script to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/joy_teleop
+[2.057s] Installing joy_teleop script to /home/pradeshi/ros2_ws3/install/joy_teleop/lib/joy_teleop
+[2.058s] writing list of installed files to '/home/pradeshi/ros2_ws3/build/joy_teleop/install.log'
+[2.122s] Invoked command in '/home/pradeshi/ros2_ws3/src/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradeshi/ros2_ws3/build/joy_teleop/prefix_override:/home/pradeshi/ros2_ws3/install/joy_teleop/lib/python3.10/site-packages:/home/pradeshi/ros2_ws3/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/pradeshi/ros2_ws3/build/joy_teleop/build install --record /home/pradeshi/ros2_ws3/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed
