@@ -1,0 +1,21 @@
+blacklist: []
+build_space: build
+catkin_make_args: []
+cmake_args:
+- -DPYTHON_EXECUTABLE=/home/zed/anaconda3/envs/yolov5/bin/python3.7
+- -DPYTHON_INCLUDE_DIR=/home/zed/anaconda3/envs/yolov5/include/python3.7m
+- -DPYTHON_LIBRARY=/home/zed/anaconda3/envs/yolov5/lib/libpython3.7m.so
+- -DSETUPTOOLS_DEB_LAYOUT=OFF
+devel_layout: linked
+devel_space: devel
+extend_path: null
+install: true
+install_space: install
+isolate_install: false
+jobs_args: []
+log_space: logs
+make_args: []
+source_space: src
+use_env_cache: false
+use_internal_make_jobserver: true
+whitelist: []
